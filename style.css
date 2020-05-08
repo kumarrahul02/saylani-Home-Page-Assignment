@@ -1,0 +1,273 @@
+.header
+{
+    height: 300px;
+    z-index: 3;
+}
+.icondiv
+{
+    height: 50px;
+    background-color: rgb(58, 109, 219);
+}
+.icon
+{
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    vertical-align: middle;
+}
+.header .icondiv a
+{
+    text-decoration: none;
+}
+.fbicon
+{
+    margin-left: 250px;
+}
+.icondiv table
+{
+    margin: auto;
+}
+.icondiv table tr td p
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: normal;
+}
+.navbar
+{
+    height: 10%;
+    width: 50%;
+    position: absolute;
+    right: 10%;
+    float: left;
+}
+.navbar ul
+{
+    list-style: none;
+}
+.navbar ul li
+{
+    float: left;
+    padding-left: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo
+{
+    width: 30%;
+    float: left;
+}
+.logo img
+{
+    height: 50px;
+    position: absolute;
+    left: 15%;
+    line-height: 100px;
+    top: 12%;
+}
+.navdiv
+{
+    background-color: white;
+    height: 80px;
+    line-height: 80px;
+    display: block;
+    overflow: hidden;
+    position: sticky;
+}
+.banner
+{
+    background-image: url("image/ban2.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.marque
+{
+    background-color: rgb(58, 109, 219);
+    width: 70%;
+    height: 10%;
+    margin: auto;
+    line-height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.marque a
+{
+    color: blue;
+}
+.content
+{
+    min-height: 600px;
+}
+.intro h2, .doingdiv h2
+{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+}
+.intro
+{
+    width: 50%;
+    margin: auto;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fav
+{
+    width: 20%;
+    margin: auto;
+    color: darkgreen;
+    text-align: center;
+    font-weight: bold;
+}
+.numdiv
+{
+    width: 100%;
+    background-color: rgb(37, 49, 221);
+    height: 300px;
+    margin-top: 5%;
+}
+.numdiv div
+{
+    color: white;
+    width: 300px;
+    height: 200px;
+    line-height: 1px;
+    text-align: center;
+    float: left;
+    margin-top: 50px;
+}
+.numdiv div img
+{
+    width: 50px;
+    height: 50px;
+}
+.numdiv div h2
+{
+    font-size: 250%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service
+{
+    width: 100%;
+    margin: auto;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 239, 239);
+    height: 600px;
+}
+.service-row div
+{
+    background-color: white;
+    width: 350px;
+    height: 180px;
+    float: left;
+    padding: 5px;
+    text-align: center;
+    margin: 10px 10px 10px 20px;
+    color:rgb(58, 109, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.service-row div img
+{
+    margin-top: 5%;
+}
+.upcoming
+{
+    height: auto;
+    display: flex;
+}
+.upcoming-col1
+{
+    height: 400px;
+    width: 700px;
+    margin-left: 17%;
+}
+.upcoming-col1-row
+{
+    display: flex;
+    justify-content: space-around;
+}
+.upcoming-col1-row div
+{
+    background-color: rgb(221, 218, 218);
+    height: 80px;
+    width: 300px;
+}
+.upcoming-col2
+{
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+}
+.upcoming-col2 marquee
+{
+    line-height: 2em;
+    color: rgb(44, 45, 46);
+}
+.upcoming-col2 marquee a
+{
+    text-decoration: none;
+    color: blue;
+}
+.upcoming-col1-row img
+{
+    float: left;
+    margin: 5% 0 0 2%;
+}
+.upcoming-col1-row h4
+{
+    float: left;
+    color: blue;
+    margin-left: 8%;
+}
+.crouseldiv
+{
+    font-size: 150%;
+    margin: auto;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 5%;
+}
+.crousel
+{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.crousel div img
+{
+    width: 220px;
+    height: 150px;
+}
+.footer
+{
+    background-color: #25272e;
+    height: 400px;
+    display: flex;
+}
+.footer div
+{
+    width: 350px;
+    line-height: 1.6em;
+    margin: 50px 0px 5px 100px;
+    height: 250px;
+}
+.belowfooter
+{
+    background-color: rgb(58, 109, 219);
+    width: 100%;
+    height: 50px;
+    color: white;
+    margin-top: 0%;
+    font-size: 15px;
+}
+.belowfooter div
+{
+    width: 200px;
+    line-height: 40px;
+    margin-left: 200px;
+}
